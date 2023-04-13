@@ -253,6 +253,8 @@ var RouletteBody = function RouletteBody(_ref2) {
   // var prize_num = generate_random_number(0, prize_arr.length - 1);
   var prize_num = 3;
 
+  console.log('test in dist');
+
   var trigger_roulette = function trigger_roulette() {
     _gsap.TweenLite.to([UBoardRef.current, OBoardRef.current], 3, {
       rotation: 360 * 10,

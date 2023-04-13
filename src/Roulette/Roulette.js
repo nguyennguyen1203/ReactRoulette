@@ -63,6 +63,8 @@ const RouletteBody = ({
   // const prize_num = generate_random_number(0, prize_arr.length - 1)
   const prize_num = 3;
 
+  console.log('test in roulette');
+
   const trigger_roulette = () => {
     TweenLite.to([UBoardRef.current, OBoardRef.current], 3, {
       rotation: 360 * 10,
